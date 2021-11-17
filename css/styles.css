@@ -1,0 +1,119 @@
+:root {
+    --clrprimary: #FF6D6D;
+    --clrsec:#AE4CCF;
+    --clroffest:#533535;
+    --clracent:#E6CCA9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.logo{
+    width: 70px;
+}
+
+.togbtn{
+    font-size: 25px;
+    color: var(--clracent);
+    border: 2px solid var(--clracent);
+    padding: 0 5px 0;
+    border-radius: 5px;
+}
+
+
+#section-1 {
+    /* width: 100%;*/
+    height: 100%;
+    background-image: linear-gradient(to right, var(--clrprimary) 50%, var(--clrsec) 50%);
+}
+
+.img-div{
+    height: 500px;
+    margin-top: 60px;
+}
+
+#headphone{
+    width: 150%;
+    height: 100%;
+}
+
+.img-div1{
+    height: 500px;
+    margin-top: 60px;
+}
+
+.img-div3{
+    height: 500px;
+    margin-top: 60px;
+}
+
+.clink1{
+    text-decoration: none;
+    color: var(--clracent);
+    background-color: var(--clroffest);
+    border: 3px solid var(--clroffest);
+
+}
+
+.clink2{
+    text-decoration: none;
+    color: var(--clracent); 
+border: 3px solid var(--clroffest);
+background-color: transparent;
+}
+
+
+
+.nav-link{
+    color: var(--clracent);
+    font-weight: 400;
+}
+
+.navbar-brand{
+color: var(--clracent);
+
+}
+
+.nav-link:hover,.navbar-brand:hover {
+color: var(--clroffest) !important;
+font-weight: bolder;
+}
+
+.pbutton{
+    width: 50px;
+    margin-left: 10px;
+    background-color: var(--clrprimary);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.playtext{
+    margin-top: 150px;
+}
+
+.smicons{
+    margin-top: 200px;
+}
+
+.smicons img{
+    width: 40px;
+    margin: 0 5px 0;
+    cursor: pointer;
+}
+
+.foota{
+    margin-top: 150px;
+    color: rgb(20, 16, 16);
+    font-weight: 450;
+
+}
